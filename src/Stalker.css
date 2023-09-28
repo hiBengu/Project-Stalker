@@ -37,15 +37,32 @@
     .stalker-results {
         background-color: #505560;
         min-height: 40vh;
+        max-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         font-size: calc(10px + 2vmin);
         color: white;
+        overflow-y: scroll;
     }
 
     .stalker-link {
         color: #61dafb;
       }
-  
+
+    .stalker-input {
+        margin: 2vw;
+    }
+
+    .stalker-button {
+        margin: 1vh;
+    }
+
+    .stalk-account{
+        margin: 1vh;
+    }
+
+    .result-div{
+        margin: 1vh;
+    }

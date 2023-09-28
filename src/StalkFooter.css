@@ -2,6 +2,10 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    font-size: calc(5px + 1vmin);
     background-color: #272d3a;
     height: 4vh;
+    color: white;
   }
